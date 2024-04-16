@@ -1,0 +1,57 @@
+body {
+    background-color:  #f5e4e7; /* Beautiful light green color */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #f5e4e7; /* Match the background color with body */
+    color: #1e3756;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a img {
+    display: block; /* Ensures the image is displayed as a block element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: medium;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p img {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.card {
+    max-width: 300px; /* Set the maximum width of the card */
+    margin: auto; /* Center the card horizontally */
+    text-align: center;
+    margin-bottom: 50px; /* Add margin at the bottom of the card */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card img {
+    width: 100%; /* Make the image inside the card fill the entire width */
+}
+
+/*DEVELOPER: Kevlin Zamor, IS117-006, Spring 2024, 2024 */

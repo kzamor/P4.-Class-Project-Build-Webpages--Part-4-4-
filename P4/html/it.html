@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Kelvin Zamor, IS117-006, Spring 2024 -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kelvin Zamor Porfolio</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="/styles/it.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Kelvin Zamor Portfolio</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT</a>
+                        </li>
+                        
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="web_development.html">Web Development</a>
+                                <a class="dropdown-item" href="it.html">Information Technology</a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <div class="row">
+        <p class="col-1"></p>
+        </div>
+    <div >
+        <h1>Information Technology Projects</h1>
+
+        <br>
+        <br>
+
+        <h3>TCP Chatroom</h3>
+
+        <br>
+        <br>
+
+        <p class = "p">
+            <a href="https://www.youtube.com/watch?v=SlTH8E3bOHg" target="_blank"><img src="/images/tcp.png" alt="TCP Chatroom" width="500" height="300" style="float: left; margin-right: 30px;"></a>
+            My TCP chatroom is a Java-based server that I developed to handle multiple clients simultaneously, ensuring smooth communication between users. I implemented graceful handling of client disconnects and server shutdowns to maintain uninterrupted conversations. The chatroom includes custom features like rolling dice, flipping coins, changing text colors, and muting functions, all designed by me to enhance user engagement. Users can join different "Rooms" within the chatroom, each with its unique set of users and conversations. Messages are sent as payloads, allowing for additional data like usernames and special commands (/roll, /flip) to be processed server-side and broadcasted to all clients. I also implemented basic text formatting features like bold, italics, color changes, and underlining, making conversations lively and expressive without the need for HTML tags. Click on the image to view a YouTube video I posted that demonstrates the TCP Chatroom's features.
+        </p>
+
+        <br>
+        <br>
+
+        <h3>Roll-a-Ball Game</h3>
+
+        <br>
+        <br>
+
+        <p class = "p">
+            <a href="https://kzamor.itch.io/roll-a-ball-it201-001-final-sprint-2" target="_blank"><img src="/images/game.png" alt="Roll-a-Ball Game" width="500" height="300" style="float: left; margin-right: 30px;"></a>
+            I built my roll-a-ball game by creating a game level with various new World Features and Code Features. In the Unity editor, I made changes like adjusting the RigidBody Component of objects, adding sound effects using the AudioSource component, and customizing the appearance of my Player Game Object. I also delved into coding by adding conditional statements to trigger actions, such as changing the scale of objects based on events or teleporting the player when a specific key is pressed. These modifications were crucial for enhancing the gameplay and creating a more engaging experience for the player. For full credit, I uploaded my project folder to Google Drive, created a WebGL build on itch.io, documented all my modifications with descriptions and code comments, and explained how these changes impacted the mechanics of my game in my submission. Overall, I thoroughly enjoyed experimenting with Unity and C# to create a fun and interactive roll-a-ball game. CLick on the image to play the game yourself!
+        </p>
+
+    </div>
+</div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Kelvin Zamor, 2024 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
